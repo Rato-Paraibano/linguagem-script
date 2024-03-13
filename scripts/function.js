@@ -14,7 +14,8 @@ function login(){
 // }
     if(email == emailCorreto){
         if(senha == senhaCorreta)
-        alert('E-mail e senha corretos.');
+            alert('Foi feito login com sucesso, Redirecionando...');
+            window.location.href = '../index.html'
     } else {
         alert('E-mail incorreto.')
     }
