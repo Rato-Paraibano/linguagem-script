@@ -11,11 +11,12 @@ function login(){
 //     if(email == emailCorreto && senha == senhaCorreta){
 //         alert('E-mail e senha corretos.' );
 //     } else print('E-mail ou senha incorretos.')
-// }
     if(email == emailCorreto){
         if(senha == senhaCorreta)
             alert('Foi feito login com sucesso, Redirecionando...');
-            window.location.href = '../index.html'
-    } else {
+            window.location.href = '../../index.html'
+    } 
+    else {
         alert('E-mail incorreto.')
     }
+}
