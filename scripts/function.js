@@ -20,3 +20,9 @@ function login(){
         alert('E-mail incorreto.')
     }
 }
+function digitarvalor(){
+    valorDisplay = document.getElementById('display')
+    
+
+
+}
