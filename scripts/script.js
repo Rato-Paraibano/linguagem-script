@@ -1,60 +1,61 @@
-/*var condicao = true; 
+var mes = prompt("Digite o mês:" 
+                    + "\n 1 - Janeiro" 
+                    + "\n 2 - Fevereiro"
+                    + "\n 3 - Março");
 
-if(condicao){
-    var nome = prompt('Qual o seu nome ?');
-    document.getElementById('descrição').innerHTML += nome; 
+if(mes == 1){
+    alert("Janeiro");
+} else if(mes == 2){
+    alert("Fevereiro");
+} else if(mes == 3){
+    alert("Março");
+} else {
+    alert("Mês inválido");
+}                  
 
-} else{
-    var idade = prompt('Qual a sua profissão ? ');
-}*/
+switch(mes){
+    case '1': 
+        alert("Janeiro");
+        break;
+    case '2':
+        alert("Fevereiro");
+        break;
+    case '3':
+        alert("Março");
+        break;
+    default:
+        alert("Mês inválido");
+        break;
+}
 
-// var manha = true;
-// var tarde = false;
-// var noite = false;
+/*
 
-// if(manha){
-//     alert('Manhã');
-// }else if(tarde){
-//     alert('Tarde');
-// }else if(noite){
-//     alert('Noite')
-   
-// }
+var preco = prompt("Qual o preço do produto?");
+var preco = 20;
+var preco2 = "20";
 
-// var nome = prompt("Qual o seu nome ?")
+console.log("Preço:" + typeof preco);
+console.log("Preço2:" + typeof preco2);
 
-// var resposta = confirm(nome + ", você gostaria de continuar ?")
+if(preco !== preco2){
+    alert("Barato...");
+} else {
+    alert("Caro...");
+}
 
-// if (resposta){
-//     alert('Bem-vindo...')
-// }else {
-//     window.location.href = '../index.html'
-// }
+var mensagem = (preco <= 20) ? "Barato..." : "Caro...";
 
-// var preco = prompt('Qual o preço do produto')
-
-// if(preco <= 20){
-//     alert('Barato...')
-// }else{
-//     alert('Caro...')
-// }
-
-// var mensagem = (preco <20) ? 'Barato..' : 'Caro...';
-// alert(mensagem);
+alert(mensagem);
 
 
-// var mes = prompt("Digite um mês")
-// switch(mes){
-//     case '1':
-//         alert('Janeiro');
-//         break;
-//     case '2':
-//         alert('Fevereiro');
-//         break;
-//     case '3':
-//         alert('Março');
-//         break;
-//     default:
-//         alert('Mês inválido');
-//         break;
-// }
+var nome = prompt("Qual o seu nome?");
+
+var resposta = confirm(nome + ", você gostaria de continuar?");
+
+if(resposta){
+    alert("Bem Vindo...");
+} else {
+    window.location.href = "../index.html";
+}
+
+*/
